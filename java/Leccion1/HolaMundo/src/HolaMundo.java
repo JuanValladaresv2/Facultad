@@ -140,7 +140,7 @@ public class HolaMundo {
         int caracterChar = 'b';
         System.out.println("caracterChar = " + caracterChar);*/
         
-        //CLASE 6
+//CLASE 6
         
         //Tipos primitivos tipos booleanos
         
@@ -190,5 +190,51 @@ public class HolaMundo {
          System.out.println("Digite un caracter: ");
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("fraseChar = " + fraseChar);*/
+        
+//Clase 7
+
+        /*int num1 = 5, num2 = 4;
+        //inferencia de tipos no se puede asignar varias variables en la misma linea
+        var solucion = num1 + num2;
+        System.out.println("Solucion de la suma= "+solucion);
+
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta= "+solucion);
+
+        solucion= num1*num2;
+        System.out.println("Solucion de la multiplicacion= "+solucion);
+
+        solucion = num1/num2;
+        System.out.println("Solucion de la division="+solucion);
+
+        var solucion2 = 3.4/num2;
+        System.out.println("Solucion2 de la division="+solucion2);
+
+        solucion = num1 % num2;
+        System.out.println("solucion resultado del mod = "+solucion);
+
+        if (num1 % 2 == 0){
+            System.out.println("Es par");
+        }else{
+            System.out.println("Es impar");
+        }
+        
+
+        int varNum1=4, varNum2=4;
+        int varNum3=varNum1+6 - varNum2;
+        System.out.println("varNum3= "+varNum3);
+
+        varNum1+=1;//Operador de Composicion
+        System.out.println("varNum1 suma = "+varNum1);
+
+        //-=  *=  /=  %=
+        varNum1-=1;//Operador de Composicion resta
+        System.out.println("varNum1 resta= "+varNum1);
+        varNum1*=1;//Operador de Composicion producto
+        System.out.println("varNum1 producto = "+varNum1);
+        varNum1/=1;//Operador de Composicion division
+        System.out.println("varNum1 division = "+varNum1);
+        varNum1%=1;//Operador de Composicion modulo
+        System.out.println("varNum1 modulo = "+varNum1);*/
     }
 }
