@@ -1,10 +1,10 @@
 # Clase 1
-"""
+
 print("Hello World")
-"""
+
 
 # Clase 2
-"""
+
 miVariable = 3
 print(miVariable)
 miVariable = "Hola a todos los estudiantes de la tecnicatura"
@@ -17,9 +17,9 @@ print(id(x))
 # Las literales se escriben x528, la variable y= x272, la variable z = x592
 print(id(y))
 print(id(z))
-"""
+
 # Clase 3
-"""
+
 a: str = "Hola alumnos"
 print(type(a))
 
@@ -43,7 +43,7 @@ print(type(x))
 #Manejo de cadenas
 miGrupoFavorito = "Twenty One Pilots"
 caracteristicas = "The Best Rock Band"
-print("Mi grupo favorito es: " + miGrupoFavorito +caracteristicas)
+print("Mi grupo favorito es: " + miGrupoFavorito + caracteristicas)
 #numero1 = "7"
 #numero2 = "8"
 #print(int(numero1) + int(numero2))
@@ -77,10 +77,10 @@ else: print ("Ingrese un valor de 1 a 10")
 # Ejercicio libro
 titulo = input("Porporciona el titulo del libro: ")
 autor =input("Proporciona el autor del libro: ")
-print(título, "fue escrito por: ", autor)
-"""
+print(titulo, "fue escrito por: ", autor)
+
 # Clase 4
-"""
+
 operandoA= 8
 operandoB = 5
 suma = operandoA + operandoB
@@ -88,7 +88,7 @@ suma = operandoA + operandoB
 print(f"El resultado de la suma es: {suma}")
 
 Resta = operandoA - operandoB
-print(f"el resultado de la resta es: {resta}")
+print(f"el resultado de la resta es: {Resta}")
 
 multiplicacion = operandoA * operandoB
 print(f"El resultado de la multiplicación es: {multiplicacion}")
@@ -164,11 +164,11 @@ else: print(f"el número {num1} es impar")
 num1 = int(input("Escribe tu edad: "))
 if num1 >=18: print("Es mayor de edad")
 else: print("Es menor de edad")
-"""
+
 # Clase 5
-"""
+
 # Operadores Lógicos
-a = True
+a = False
 b = True
 resultado = a and b
 print(resultado)
@@ -215,4 +215,3 @@ if envio:
     print("Envio: Gratuito")
 else:
     print("Envio: No posee Envio Gratuito")
-"""

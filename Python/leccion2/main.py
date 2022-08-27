@@ -22,3 +22,11 @@ elif num == 3:
 else:
     numTexto = "Has ingresado un número fuera de rango"
 print(f"El número ingresado es:  {num} - {numTexto} ")
+
+condicion = False
+if condicion:
+    print("Condición verdadera")
+else:
+    print("Condición Falsa")
+
+print("Condición Verdadera") if condicion else print("Condición Falsa")

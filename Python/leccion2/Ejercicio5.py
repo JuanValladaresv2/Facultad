@@ -1,5 +1,5 @@
 #Ejercicio calificaciones
-calificacion = int(input("Digite una calificacion entre 0 y 10"))
+calificacion = int(input("Digite una calificacion entre 0 y 10: "))
 if 9 <= calificacion < 10:
     print("A")
 elif 8 <= calificacion < 9:
