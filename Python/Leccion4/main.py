@@ -4,13 +4,15 @@
 
 #Las listas es lo que se conoce en otros lenguajes como arreglos o vectores
 
-#nombres = ['Santiago', 'Matias', 'Juani', 'Tomas']
-#print(nombres)
-#print(nombres[0])
-#print(nombres[1])
-#print(nombres[3])
-#print(nombres[-1])
-#print(nombres[-2])
+# nombres = ['Santiago', 'Matias', 'Juani', 'Tomas']
+# print(nombres)
+# print(nombres[0])
+# print(nombres[1])
+# print(nombres[3])
+# print(nombres[-1])
+# print(nombres[-2])
+
+
 
 nombres = ['Santiago', 'Matias', 'Juani', 'Tomas']
 print(nombres)
@@ -94,7 +96,7 @@ cocina = tuple(cocinaLista)
 print('\n', cocina)
 
 del cocina
-print(cocina)
+
 
 #del cocina esto es para eliminar una tupla
 
@@ -122,7 +124,7 @@ print(planetas)
 
 # Eliminar set
 del planetas
-print(planetas)
+
 
 # "Maradona" :10 Un diccionario esta compuesto por dos elementos
 # UNA LLAVE Y UN VALOR
@@ -193,7 +195,7 @@ print(lista3.index(5)) # Función para ubicar en que índice esta el valor ingre
 # print(lista3.index(0)) # esto daría un error por no ser el elemento parte de la lista
 
 # Como saber cuantos valores repetidos hay dentro de una lista
-print(lista3.count()) # Cuenta cuantos valores iguales hay dentro de la lista
+print(lista3.count(1)) # Cuenta cuantos valores iguales hay dentro de la lista
 
 # Para poner al reves una lista
 lista3.reverse()
@@ -216,3 +218,128 @@ print(tupla)
 print(4 in tupla) # Acción booleana, su respuesta de de tipo booleana
 # Lo que podemos usar dentro de tuplas son: index, count, len
 # En tuplas se puede convertir de tupla a lista y de lista a tupla
+ 
+
+
+#CLASE 3 PROGRAMACIÓN 2
+
+# Repaso de set o conjunto
+
+# Para definir un conjunto
+conjunto2 = set()
+conjunto1 = {"bye", }
+conjunto2.add(7)
+conjunto2.add("Hola")
+print(conjunto2)
+conjunto1.add("hola")
+print(conjunto1)
+print(3 not in conjunto1)  # Preguntamos si el número 3 NO esta en el conjunto1
+
+# Como hacer la igualdad de dos conjuntos
+print(conjunto1 == conjunto2) # Nos devuelve como respuesta un booleano
+
+# Operaciones en conjuntos
+conjunto3 = conjunto1 | conjunto2 # La línea une los dos conjuntos
+print(conjunto3)
+
+conjunto3 = conjunto1 & conjunto2 # Que elemento tienen en comun
+print(conjunto3)
+
+conjunto3 = conjunto1 - conjunto2
+print(conjunto3)
+
+conjunto3 = conjunto2 - conjunto1
+print(conjunto3)
+
+conjunto3 = conjunto1 ^ conjunto2
+print(conjunto3)
+
+conjunto3 = conjunto1 | conjunto2
+print(conjunto2.issubset(conjunto3)) # Aquí preguntamos si un conjunto es un subconjunto dentro de otro
+print(conjunto1.issubset(conjunto3))
+print(conjunto3.issubset(conjunto1))
+print(conjunto3.issubset(conjunto2))
+
+print(conjunto3.issuperset(conjunto1)) # Preguntamos si los elementos del conjunto 1 estan dentro del 3
+print(conjunto3.issuperset(conjunto2))
+print(conjunto2.issuperset(conjunto3))
+
+# Como saber si ambos conjuntos son disconexos, esto es si no comparten ningun elemento
+print(conjunto1.isdisjoint(conjunto2)) #No hay cosas en comun
+
+conjunt1 = frozenset
+
+# Repaso diccionarios
+diccionarioNuevo = {"Azul":"Blue", "Rojo":"Red", "Verde":"Green" , "Amarillo":"Yellow"}
+print(diccionarioNuevo)
+
+# Como eliminar
+del (diccionarioNuevo["Azul"])
+print(diccionarioNuevo)
+
+# Lis diccionarios pueden almacenar diferentes tipos de datos
+diccionario2 = {"Ariel": {"edad":"40", "Altura":1.83}, "Osvaldo":[45, 1.85], "Natalia":[35,1.67]}
+print(diccionario2)
+
+# EJERCICIO DICCIONARIO SELEC ARGENTINA
+seleccionArgentina = {
+    10: {"Nombre":"Lionel Andres Messi","Edad": 35,"Altura":1.70,"Precio":"50 millones","Posición":"Extremo Derecho"},
+    11: {"Nombre":"Ángel Di María","Edad": 34,"Altura":1.80,"Precio":"12 millones","Posición":"Extremo Derecho"},
+    24: {"Nombre":"Paulo Dybala","Edad": 28,"Altura":1.77,"Precio":"35 millones","Posición":"Media Punta"},
+    19: {"Nombre":"Nicolás Otamendi","Edad": 34,"Altura":1.83,"Precio":"3.5 millones","Posición":"Defensa Central"},
+    1: {"Nombre":"Franco Armani","Edad": 35,"Altura":1.89,"Precio":"3.5 millones","Posición":"Portero"},
+    23: {"Nombre":"Emiliano Martinez","Edad": 29,"Altura":1.95,"Precio":"1.5 millones","Posición":"Portero"},
+    27: {"Nombre":"Julián Álvarez","Edad": 22,"Altura":1.73,"Precio":"5 millones","Posición":"Delantero"},
+    7: {"Nombre":"Rodrigo De Paul","Edad": 28,"Altura":1.80,"Precio":"10 millones","Posición":"Centrocampista"}
+}
+
+for llave, valor in seleccionArgentina.items():
+    print(llave,valor)
+
+# Pilas usando listas
+pila = [1, 2, 3]
+
+# Agregar elementos a la pila por el final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+# Sacamos elementos desde el final
+elementoBorrado = pila.pop() # Quita el último y lo guarda en la variable
+print(f"Sacamos el elemento: {elementoBorrado}")
+print(f"La pila ahora quedó así: {pila}")
+
+# Colas con listas
+# Estructura de datos de tipo fifo (First Input / First Output)
+
+cola =["Ariel", "Osvaldo", "Liliana", "Pilar"]
+
+# Agregamos al final de la fila
+cola.append("Natalia")
+cola.append("José")
+print(cola)
+
+# Sacamos elementos de la cola
+seRetira = cola.pop(0)
+print(f"Atendido el cliente {seRetira}")
+print(cola)
+
+seRetira = cola.pop(0)
+print(f"Atendido el cliente {seRetira}")
+print(cola)
+
+seRetira = cola.pop(0)
+print(f"Atendido el cliente {seRetira}")
+print(cola)
+
+seRetira = cola.pop(0)
+print(f"Atendido el cliente {seRetira}")
+print(cola)
+
+seRetira = cola.pop(0)
+print(f"Atendido el cliente {seRetira}")
+print(cola)
+
+seRetira = cola.pop(0)
+print(f"Atendido el cliente {seRetira}")
+print(cola)
