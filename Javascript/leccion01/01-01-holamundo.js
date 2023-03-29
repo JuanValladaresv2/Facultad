@@ -1,5 +1,5 @@
 
 var nombre = "Juan";
+nombre = "Valladares \nJuan\n";
 var apellido = "Valladares";
-console.log(nombre);
-console.log(apellido);
+console.log(nombre+apellido);
