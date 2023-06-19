@@ -2,7 +2,7 @@ package ciclos02;
 
 import javax.swing.*;
 
-public class Ejercicio02 {
+public class Ciclos02 {
     public static void main(String[] args) {
         var numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero o presione 0 para salir: "));
         while(numero != 0){
