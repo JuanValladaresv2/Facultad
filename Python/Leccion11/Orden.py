@@ -1,6 +1,5 @@
 from Producto import Producto
 
-
 class Orden:
     contador_ordenes = 0
 

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b18621b-a0d8-4975-9754-3eddb1dd14cc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Leccion8/.idea/Leccion8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion8/.idea/Leccion8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leccion8/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion8/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Leccion9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leccion9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FiguraGeometrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/FiguraGeometrica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_figura_geometrica.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_figura_geometrica.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/juan_/Facultad/Python/Leccion10"
+    "last_opened_file_path": "C:/Users/juan_/chacoDevsTeam-3Sem/PYTHON/TrabajoFinal3Semestre"
   }
 }]]></component>
   <component name="RunManager">
