@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba943204-dcaa-4f0c-b791-84a098633183" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../java/Leccion2/EjercicioCiclos02/src/Ciclos02/Ciclos02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/Leccion2/EjercicioCiclos02/src/Ciclos02/Ciclos02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/Leccion2/EjercicioCiclos11/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/Leccion2/EjercicioCiclos11/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/Leccion4/Aritmetica/build/classes/Operaciones/Aritmetica.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/Leccion4/Aritmetica/build/classes/Operaciones/Aritmetica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="2QZKAPqd3YmRiVwjo70OxKN5vIV" />
   <component name="ProjectLevelVcsManager">
@@ -25,7 +23,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/juan_/Facultad/Facu3sem/Python/Leccion04/BD"
   }
 }]]></component>
   <component name="RunManager">
